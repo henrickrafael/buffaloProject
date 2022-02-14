@@ -1,0 +1,31 @@
+body, html {
+    background: #f0f0f0;
+}
+
+span {
+    font-weight: bold !important;
+}
+
+.my-span {
+    font-weight: 400 !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+.login-body {
+    width: 60em;
+    height: 30em;
+}
+
+.img-login {
+    object-fit: cover;
+    width: 60em;
+    height: 30em;
+}
+
