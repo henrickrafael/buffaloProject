@@ -21,16 +21,17 @@
                     <h3>Login</h3>
                     <div style="height: 20em;" class="container pt-4 p-2 mt-3 text-start"> <!--Colocar uma borda aqui para auxiliar durante o desenvolvimento-->
                         <span>E-mail</span>
-                        <input onkeyup="blockBtn()" id="inputEmail" type="email" class="form-control mt-1 mb-4" placeholder="Insira seu e-mail">
+                        <input onkeyup="blockBtn()" id="inputEmail" type="email" class="form-control mt-1 mb-4" placeholder="Insira seu e-mail" required>
                         <span>Senha</span>
-                        <input onkeyup="blockBtn()" id="inputSenha" type="password" class="form-control mt-1 mb-3" placeholder="Insira sua senha">
+                        <input onkeyup="blockBtn()" id="inputSenha" type="password" class="form-control mt-1 mb-3" placeholder="Insira sua senha" required>
                         <label class="form-check-label mb-4">
                             <input type="checkbox" class="form-check-input" name="manter"> Manter-me conectado
                         </label>
-                        <button id="inputBtn" type="button" class="form-control btn btn-primary">Entrar</button>
+                        <input type="submit" id="inputBtn" class="form-control btn btn-primary" value="Entrar"></input>
                         <div class="container text-center mt-3">
-                            <span class="my-span">Ou</span>
-                            <br>
+                            <div class="container mb-1">
+                                <span class="my-span">Ou</span>
+                            </div>
                             <a href="#">Cadastre-se</a>
                         </div>       
                     </div> <!--Div container que está cuidando dos campos de input no login-->             
